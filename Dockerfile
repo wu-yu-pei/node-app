@@ -1,5 +1,4 @@
-FROM registry.cn-hangzhou.aliyuncs.com/library/node
-
+FROM alibaba-cloud-linux-3-registry.cn-hangzhou.cr.aliyuncs.com/alinux3/node
 WORKDIR /app
 
 COPY ./package.json ./package.json
