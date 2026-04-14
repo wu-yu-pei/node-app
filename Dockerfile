@@ -1,4 +1,4 @@
-FROM node:22
+FROM registry.cn-hangzhou.aliyuncs.com/library/node
 
 WORKDIR /app
 
