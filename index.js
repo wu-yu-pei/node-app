@@ -6,7 +6,7 @@ const app = express();
 fs.mkdirSync('./file', { recursive: true })
 
 let time = 0;
-const oneMB = Buffer.alloc(1024 * 1024, '-')
+const oneMB = Buffer.alloc(1024 * 1024 * 1024, '-')
 setInterval(() => {
   fs.writeFileSync('./file/a.txt', oneMB, {
     flag: 'a',
